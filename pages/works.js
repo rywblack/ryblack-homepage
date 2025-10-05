@@ -22,7 +22,7 @@ const Works = () => {
             />
             <LinkOverlay as={NextLink} href="/works/project1">
               <Heading fontSize={20} mt={2}>
-                Placeholder Project 1
+                Resume Maker
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
