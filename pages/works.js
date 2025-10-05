@@ -15,8 +15,8 @@ const Works = () => {
         <Section>
           <LinkBox cursor="pointer">
             <Image
-              src="/images/placeholder1.jpg"
-              alt="Project 1"
+              src="/images/resumeMaker.png"
+              alt="Resume Maker" 
               borderRadius="lg"
               mb={2}
             />
@@ -26,7 +26,7 @@ const Works = () => {
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-              A short description of your first project goes here.
+      A React + Vite app for building and downloading polished PDF resumes instantly.
             </Text>
           </LinkBox>
         </Section>

@@ -35,8 +35,8 @@ const Project1 = () => (
       <Image
         borderRadius="lg"
         w="full"
-        src="/images/placeholder1.jpg"
-        alt="Project 1 Image"
+        src="/images/resumeMaker.png"
+        alt="Resume Maker Screenshot"
         mt={6}
       />
     </Section>
