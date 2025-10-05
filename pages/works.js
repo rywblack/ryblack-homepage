@@ -1,5 +1,5 @@
 // pages/works.js
-import { Container, Heading, SimpleGrid, Box, Image, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Image, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import Section from '../components/section'
 import NextLink from 'next/link'
 

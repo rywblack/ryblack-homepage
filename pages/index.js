@@ -35,7 +35,7 @@ const Page = () => {
           Work
         </Heading>
         <Paragraph>
-          I'm a front-end developer with a passion for building responsive,
+          I&apos;m a front-end developer with a passion for building responsive,
           elegant, and intuitive user interfaces. I love crafting clean code,
           exploring modern frameworks, and learning new technologies to bring
           ideas to life on the web.
