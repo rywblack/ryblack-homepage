@@ -16,7 +16,7 @@ const Works = () => {
           <LinkBox cursor="pointer">
             <Image
               src="/images/resumeMaker.png"
-              alt="Resume Maker" 
+              alt="Resume Maker"
               borderRadius="lg"
               mb={2}
             />
@@ -26,27 +26,27 @@ const Works = () => {
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-      A React + Vite app for building and downloading polished PDF resumes instantly.
+              A React + Vite app for building and downloading polished PDF resumes instantly.
             </Text>
           </LinkBox>
         </Section>
 
-        {/* Project 2 */}
+        {/* Project 2 - Movie Character Finder */}
         <Section delay={0.1}>
           <LinkBox cursor="pointer">
             <Image
-              src="/images/placeholder2.jpg"
-              alt="Project 2"
+              src="/images/movie-character-finder.png"
+              alt="Movie Character Finder"
               borderRadius="lg"
               mb={2}
             />
             <LinkOverlay as={NextLink} href="/works/project2">
               <Heading fontSize={20} mt={2}>
-                Placeholder Project 2
+                Movie Character Finder
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-              Another placeholder description for the second project.
+              Search any movie, open a dedicated detail page, and explore its main characters and cast using the TMDB API.
             </Text>
           </LinkBox>
         </Section>
@@ -76,4 +76,3 @@ const Works = () => {
 }
 
 export default Works
-
