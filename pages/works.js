@@ -31,8 +31,28 @@ const Works = () => {
           </LinkBox>
         </Section>
 
-        {/* Project 2 — Smart Notes App */}
+        {/* Project 2 — Movie Character Finder (unchanged original) */}
         <Section delay={0.1}>
+          <LinkBox cursor="pointer">
+            <Image
+              src="/images/movie-character-finder.png"
+              alt="Movie Character Finder"
+              borderRadius="lg"
+              mb={2}
+            />
+            <LinkOverlay as={NextLink} href="/works/project2">
+              <Heading fontSize={20} mt={2}>
+                Movie Character Finder
+              </Heading>
+            </LinkOverlay>
+            <Text fontSize="sm" color="gray.500">
+              Search any movie, open a dedicated detail page, and explore its main characters and cast using the TMDB API.
+            </Text>
+          </LinkBox>
+        </Section>
+
+        {/* Project 3 — Smart Notes App */}
+        <Section delay={0.2}>
           <LinkBox cursor="pointer">
             <Image
               src="/images/smartnotes.png"
@@ -40,35 +60,15 @@ const Works = () => {
               borderRadius="lg"
               mb={2}
             />
-            <LinkOverlay as={NextLink} href="/works/project2">
+            <LinkOverlay as={NextLink} href="/works/project3">
               <Heading fontSize={20} mt={2}>
                 Smart Notes App
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-              A clean and modern note-taking app with tagging, searching, pinning, and a mock AI
-              summarizer — built with React + Vite and deployed on Vercel.
+              A clean and modern note-taking app with tagging, searching, pinning,
+              and a mock AI summarizer — built with React + Vite and deployed on Vercel.
               Live Demo: https://smart-notes-app-two.vercel.app/
-            </Text>
-          </LinkBox>
-        </Section>
-
-        {/* Project 3 */}
-        <Section delay={0.2}>
-          <LinkBox cursor="pointer">
-            <Image
-              src="/images/placeholder3.jpg"
-              alt="Project 3"
-              borderRadius="lg"
-              mb={2}
-            />
-            <LinkOverlay as={NextLink} href="/works/project3">
-              <Heading fontSize={20} mt={2}>
-                Placeholder Project 3
-              </Heading>
-            </LinkOverlay>
-            <Text fontSize="sm" color="gray.500">
-              One more project card to fill space until your real work is done.
             </Text>
           </LinkBox>
         </Section>
