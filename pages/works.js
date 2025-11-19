@@ -31,7 +31,7 @@ const Works = () => {
           </LinkBox>
         </Section>
 
-        {/* Project 2 — Movie Character Finder (unchanged original) */}
+        {/* Project 2 — Movie Character Finder */}
         <Section delay={0.1}>
           <LinkBox cursor="pointer">
             <Image
@@ -46,7 +46,7 @@ const Works = () => {
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-              Search any movie, open a dedicated detail page, and explore its main characters and cast using the TMDB API.
+              Search any movie, open a detailed page, and explore the main characters and cast using the TMDB API.
             </Text>
           </LinkBox>
         </Section>
@@ -66,8 +66,8 @@ const Works = () => {
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-              A clean and modern note-taking app with tagging, searching, pinning,
-              and a mock AI summarizer — built with React + Vite and deployed on Vercel.
+              A modern note-taking app built with React + Vite. Features include tags, search,
+              pinning, clean UI, and a mock AI summarizer — all saved in LocalStorage.  
               Live Demo: https://smart-notes-app-two.vercel.app/
             </Text>
           </LinkBox>
