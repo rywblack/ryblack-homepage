@@ -31,22 +31,24 @@ const Works = () => {
           </LinkBox>
         </Section>
 
-        {/* Project 2 - Movie Character Finder */}
+        {/* Project 2 — Smart Notes App */}
         <Section delay={0.1}>
           <LinkBox cursor="pointer">
             <Image
-              src="/images/movie-character-finder.png"
-              alt="Movie Character Finder"
+              src="/images/smartnotes.png"
+              alt="Smart Notes App"
               borderRadius="lg"
               mb={2}
             />
             <LinkOverlay as={NextLink} href="/works/project2">
               <Heading fontSize={20} mt={2}>
-                Movie Character Finder
+                Smart Notes App
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-              Search any movie, open a dedicated detail page, and explore its main characters and cast using the TMDB API.
+              A clean and modern note-taking app with tagging, searching, pinning, and a mock AI
+              summarizer — built with React + Vite and deployed on Vercel.
+              Live Demo: https://smart-notes-app-two.vercel.app/
             </Text>
           </LinkBox>
         </Section>
