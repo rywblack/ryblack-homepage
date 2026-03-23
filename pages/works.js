@@ -26,7 +26,7 @@ const Works = () => {
               </Heading>
             </LinkOverlay>
             <Text fontSize="sm" color="gray.500">
-              A React + Vite app for building and downloading polished PDF resumes instantly.
+              A full-stack web app to build, preview, and download professional resumes in real-time, with Google/GitHub sign-in and cloud persistence.
             </Text>
           </LinkBox>
         </Section>
